@@ -42,13 +42,13 @@ We used four different models to predict the probability of death of patients:
 ### Analytical Goal #2: Predict Amount of death cause by Covid-19 with time series model
 * Prediction plot
 The time series data is non-stationary, which shows a large volume of fluctuations. The main reason is very likely to be the random occurrence of the virus mutations. As a result, the time series model works poorly in long run. 
-![](/images/ts1.png =250x)
-<img src="/images/ts1.png" alt="drawing" width="200"/>
+
+<img src="/images/ts1.png" alt="drawing" width="500"/>
 
 
 ### Analytical Goal #3: Predicting the cumulative vaccinated population with time series model 
 Fitted an additive time series model on the two-year vaccinated data and predicted for the next 5 days. We obtained the predicting result that the trend will be linearly increasing over date and will reach 2.12 billion on Feb 6.
-<img src=/images/ts2.png" alt="drawing" width="200"/>
+<img src="/images/ts2.png" alt="drawing" width="500"/>
 
 ## Conclusion
 * ML Model:
