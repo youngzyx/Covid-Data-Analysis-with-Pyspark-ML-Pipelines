@@ -11,8 +11,8 @@ This patient-level dataset includes demographics and geography features such as 
 Dataset 2 is a aggregated data that includes covid-19 vaccine administration and vaccine equity data at county level.
 
 * URLs: 
- * Dataset1: https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4
- * Dataset2: : https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh
+    * Dataset1: https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4
+    * Dataset2: : https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh
 
 ## Data Pre-processing
 Build an ETL pipeline for data pre-processing:
