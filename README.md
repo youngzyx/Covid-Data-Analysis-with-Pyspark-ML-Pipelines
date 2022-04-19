@@ -29,7 +29,7 @@ Cluster : 8 Node i3.xlarge cluster with 9.1 LTS (includes Apache Spark 3.1.2, Sc
 * Predict the cumulative vaccinated population with time series model
 
 ## Implementation
-Analytical Goal #1: Predict the probability of death of patients
+### Analytical Goal #1: Predict the probability of death of patients
 We used four different models to predict the probability of death of patients:
 
 | Model | Accuracy | Area under ROC | Area under PR | F1 | Execution Time |
@@ -38,5 +38,22 @@ We used four different models to predict the probability of death of patients:
 | Decision Tree | 0.935 | 0.526 | 0.306 | 0.925 | 4.63 sec | 
 | Random Forest | 0.946 | 0.910 | 0.573 | 0.930 | 15.69 sec | 
 | K-means | 0.812|  - | - | - | 2.59 sec|
+
+### Analytical Goal #2: Predict Amount of death cause by Covid-19 with time series model
+* Prediction plot
+The time series data is non-stationary, which shows a large volume of fluctuations. The main reason is very likely to be the random occurrence of the virus mutations. As a result, the time series model works poorly in long run. 
+![ts](/images/ts1.png)
+
+### Analytical Goal #3: Predicting the cumulative vaccinated population with time series model 
+Fitted an additive time series model on the two-year vaccinated data and predicted for the next 5 days. We obtained the predicting result that the trend will be linearly increasing over date and will reach 2.12 billion on Feb 6.
+![ts2](/images/ts2.png)
+
+## Conclusion
+* ML Model:
+   * ML models can be implemented to predict probability of death of a patient.
+   * The Random Forest model shows a best performance and least execution time compared to Decision Tree, Logistic Model and K-means. 
+* Time Series Model:
+   * Time series model can help to forecast infected/vaccinated amount in the future.
+   * Time series model works well on fitting overall trend and short-time prediction. However bias may increase in long term run.
 
 
