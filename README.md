@@ -17,10 +17,10 @@ Dataset 2 is a aggregated data that includes covid-19 vaccine administration and
 Build an ETL pipeline for data pre-processing:
 * Covid Data: Drop records with unknown status of death
 * Vaccination Data: Group data to month level and count number of vaccinated
-*Merged two datasets: Merge covid and vaccination data by year-month, state and county.
+* Merged two datasets: Merge covid and vaccination data by year-month, state and county.
 
-Execution Time: 0.46s
-Cluster : 8 Node i3.xlarge cluster with 9.1 LTS (includes Apache Spark 3.1.2, Scala 2.12)
+  * Execution Time: 0.46s
+  * Cluster : 8 Node i3.xlarge cluster with 9.1 LTS (includes Apache Spark 3.1.2, Scala 2.12)
 
 ## Analytical Goals
 * Predict the probability of death of patients
