@@ -2,8 +2,8 @@
 * [Notebook](https://github.com/youngzyx/covid_predict/blob/main/covid_data_analysis.ipynb)
 * [Slides](https://github.com/youngzyx/covid_predict/blob/main/covid_data_analysis.pdf)
 
-### Team
-[Yoli Wu](https://github.com/hereisyoli) [Yunhe Jia](https://github.com/YunheJ) [Meilin Li](https://github.com/meilin-l99) [David Lyu](https://github.com/MuhuanLyu) [Young Zeng](https://github.com/youngzyx)
+#### Team
+[Yoli Wu](https://github.com/hereisyoli), [Yunhe Jia](https://github.com/YunheJ), [Meilin Li](https://github.com/meilin-l99), [David Lyu](https://github.com/MuhuanLyu), [Young Zeng](https://github.com/youngzyx)
 
 ## Dataset
 Both of the datasets are from the CDC. 
