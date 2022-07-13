@@ -31,7 +31,7 @@ Build an ETL pipeline for data pre-processing:
 * Predict the cumulative vaccinated population with time series model
 
 ## Implementation
-### Analytical Goal #1: Predict the probability of death of patients
+### Analytical Goal #1: Predict the patients' fatality rate
 We used four different models to predict the probability of death of patients:
 
 | Model | Accuracy | Area under ROC | Area under PR | F1 | Execution Time |
