@@ -26,13 +26,13 @@ Build an ETL pipeline for data pre-processing:
   * Cluster : 8 Node i3.xlarge cluster with 9.1 LTS (includes Apache Spark 3.1.2, Scala 2.12)
 
 ## Analytical Goals
-* Predict the probability of death of patients
+* Predict the patients' fatality rate
 * Predict the amount of Covid death with time series model
 * Predict the cumulative vaccinated population with time series model
 
 ## Implementation
 ### Analytical Goal #1: Predict the patients' fatality rate
-We used four different models to predict the probability of death of patients:
+We used four different models to predict the patients' fatality rate:
 
 | Model | Accuracy | Area under ROC | Area under PR | F1 | Execution Time |
 | :---- | :-----:  | :-----------:  | :----------:  | :---:  | --------:  |
